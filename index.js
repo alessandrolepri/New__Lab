@@ -1796,7 +1796,6 @@ const averageScores = Object.keys(evaluatorId).reduce(function(evaluator, key) {
 
 })
 
-
 // Calculating Min & Max score for each sentences
 // Exercise 3
 
