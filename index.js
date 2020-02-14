@@ -1745,6 +1745,8 @@ let obj = [
 ]
 
 
+// Average for each sentences
+
 const groupedScores = obj.reduce(function(memo, item) {
   if (!memo[item.sentence_pair_id]) {
     memo[item.sentence_pair_id] = {score: 0, count: 0}
@@ -1754,4 +1756,11 @@ const groupedScores = obj.reduce(function(memo, item) {
   memo[item.sentence_pair_id].count += 1
   return memo
 }, {})
-console.log(groupedScores)
+// console.log(groupedScores)
+
+const groupedAverageScores = Object.keys(groupedScores).reduce(function(memo, key) {
+  memo[key] = groupedScores[key].score / groupedScores[key].count
+  return memo
+}, {})
+
+console.log(JSON.stringify(groupedAverageScores, 0,2))
