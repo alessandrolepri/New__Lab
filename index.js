@@ -1792,7 +1792,7 @@ const averageScores = Object.keys(evaluatorId).reduce(function(evaluator, key) {
     return evaluator
   }, {})
 
-  // console.log(averageScores)
+  console.log(averageScores)
 
 })
 
@@ -1819,6 +1819,6 @@ for (const propt in score) {
     MaxScore: Math.max.apply(Math,arrData)
   })
 
-  console.log(arrObj)
+  // console.log(arrObj)
 
 }

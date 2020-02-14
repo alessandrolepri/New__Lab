@@ -1,2 +1,1 @@
-# NewLab
-BBC New Lab Test
+# News Labs – Junior Software Engineer – Coding Exercise
