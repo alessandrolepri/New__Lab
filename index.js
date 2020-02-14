@@ -1,4 +1,4 @@
-// imported the csv file by running 'csvtojson bulgarian-direct-assessment.csv > index.js' from Terminal
+
 
 
 let obj = [
@@ -1743,3 +1743,15 @@ let obj = [
 {"sentence_pair_id":"BG_SE_199","evaluator_id":"BBC_Bulgarian_02","score":"8","human_translation":"Част от имиджа на \"Рамщайн\" е да предизвиква подобни емоционални реакции. ","machine_translation":"Предизвиквайки вълнение, е част от етноса на Rammstein.","original":"Causing a stir, is part of Rammstein’s ethos."}
 
 ]
+
+
+const groupedScores = obj.reduce(function(memo, item) {
+  if (!memo[item.sentence_pair_id]) {
+    memo[item.sentence_pair_id] = {score: 0, count: 0}
+  }
+
+  memo[item.sentence_pair_id].score += Number(item.score)
+  memo[item.sentence_pair_id].count += 1
+  return memo
+}, {})
+console.log(groupedScores)
