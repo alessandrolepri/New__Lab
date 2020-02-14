@@ -1745,7 +1745,9 @@ let obj = [
 ]
 
 
-// Average for each sentences
+// total score for each sentences plus count of evaluators
+
+// Exercise 1 and 2
 
 const groupedScores = obj.reduce(function(memo, item) {
   if (!memo[item.sentence_pair_id]) {
@@ -1756,11 +1758,43 @@ const groupedScores = obj.reduce(function(memo, item) {
   memo[item.sentence_pair_id].count += 1
   return memo
 }, {})
+
 // console.log(groupedScores)
+
+// Calculating the average score for each sentences
 
 const groupedAverageScores = Object.keys(groupedScores).reduce(function(memo, key) {
   memo[key] = groupedScores[key].score / groupedScores[key].count
   return memo
 }, {})
 
-console.log(JSON.stringify(groupedAverageScores, 0,2))
+// console.log(JSON.stringify(groupedAverageScores, 0,2))
+
+
+// Calculating average score for each evaluator for all sentences
+
+const score = {}
+
+obj.forEach(function(a) {
+  score[a.sentence_pair_id] = score[a.sentence_pair_id] || []
+  score[a.sentence_pair_id].push({ evalutor: a.evaluator_id, score: a.score })
+
+
+const evaluatorId = obj.reduce(function(evaluator, item) {
+    if(!evaluator[item.evaluator_id]) {
+      evaluator[item.evaluator_id] = { score: 0, count: 0 }
+    }
+
+    evaluator[item.evaluator_id].score += Number(item.score)
+    evaluator[item.evaluator_id].count += 1
+    return evaluator
+}, {})
+
+const averageScores = Object.keys(evaluatorId).reduce(function(evaluator, key) {
+    evaluator[key] = evaluatorId[key].score / evaluatorId[key].count
+    return evaluator
+  }, {})
+
+  console.log(averageScores)
+
+})
