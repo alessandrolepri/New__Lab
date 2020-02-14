@@ -30,7 +30,7 @@ and the highest and lowest scoring sentence.
 
 * Clone the repo on your local
 * install all dependency 'npm i'
-* get the data 'node index.js'
+* get the data from terminal typing 'node index.js' to get all the result to the terminal page
 
 ## Solution
 
