@@ -1,6 +1,3 @@
-
-
-
 let obj = [
 {"sentence_pair_id":"BG_SE_1","evaluator_id":"BBC_Bulgarian_01","score":"45","human_translation":"Защо американският флаг се развява?","machine_translation":"Как се развява това американско знаме?","original":"How did that US flag wave?"}
 ,
@@ -1782,7 +1779,7 @@ obj.forEach(function(a) {
 
 const evaluatorId = obj.reduce(function(evaluator, item) {
     if(!evaluator[item.evaluator_id]) {
-      evaluator[item.evaluator_id] = { score: 0, count: 0 }
+      evaluator[item.evaluator_id] = { sentence: a.sentence_pair_id, score: 0, count: 0 }
     }
 
     evaluator[item.evaluator_id].score += Number(item.score)
@@ -1795,6 +1792,33 @@ const averageScores = Object.keys(evaluatorId).reduce(function(evaluator, key) {
     return evaluator
   }, {})
 
-  console.log(averageScores)
+  // console.log(averageScores)
 
 })
+
+
+// Calculating Min & Max score for each sentences
+// Exercise 3
+
+const arrObj = []
+
+for (const propt in score) {
+  const dataLength = score[propt].length
+  const arrData = []
+
+  for (i =0; i < dataLength; i++) {
+    arrData.push(score[propt][i].score)
+  }
+
+  Math.max.apply(Math, arrData)
+  Math.min.apply(Math, arrData)
+
+  arrObj.push({
+    Sentence: propt,
+    MinScore: Math.min.apply(Math, arrData),
+    MaxScore: Math.max.apply(Math,arrData)
+  })
+
+  console.log(arrObj)
+
+}
