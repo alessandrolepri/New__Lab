@@ -1818,7 +1818,7 @@ obj.forEach(function(a) {
     // console.log('File has been created')
   })
 
-  console.log(avgScoreEachSentence)
+  // console.log(avgScoreEachSentence)
 
 
 })
