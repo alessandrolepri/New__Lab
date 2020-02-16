@@ -1,3 +1,5 @@
+var fs = require('fs')
+
 let obj = [
 {"sentence_pair_id":"BG_SE_1","evaluator_id":"BBC_Bulgarian_01","score":"45","human_translation":"Защо американският флаг се развява?","machine_translation":"Как се развява това американско знаме?","original":"How did that US flag wave?"}
 ,
@@ -1777,7 +1779,7 @@ obj.forEach(function(a) {
   score[a.sentence_pair_id].push({ evalutor: a.evaluator_id, score: a.score })
 
 
-const evaluatorId = obj.reduce(function(evaluator, item) {
+  const evaluatorId = obj.reduce(function(evaluator, item) {
     if(!evaluator[item.evaluator_id]) {
       evaluator[item.evaluator_id] = { sentence: a.sentence_pair_id, score: 0, count: 0 }
     }
@@ -1785,14 +1787,39 @@ const evaluatorId = obj.reduce(function(evaluator, item) {
     evaluator[item.evaluator_id].score += Number(item.score)
     evaluator[item.evaluator_id].count += 1
     return evaluator
-}, {})
+  }, {})
 
-const averageScores = Object.keys(evaluatorId).reduce(function(evaluator, key) {
+  const averageScores = Object.keys(evaluatorId).reduce(function(evaluator, key) {
     evaluator[key] = evaluatorId[key].score / evaluatorId[key].count
     return evaluator
   }, {})
 
-  console.log(averageScores)
+  // console.log(averageScores)
+
+  const avgScore = averageScores
+
+  fs.writeFile('./avgScoreEachEvaluator.json', JSON.stringify(avgScore, null, 4), (err) => {
+    if (err) {
+      console.error(err)
+      return
+    }
+    console.log('File has been created')
+  })
+
+  // console.log(avgScore)
+
+  const avgScoreEachSentence = groupedAverageScores
+
+  fs.writeFile('./avgScoreEachSentence.json', JSON.stringify(avgScoreEachSentence, null, 4), (err) => {
+    if (err) {
+      console.error(err)
+      return
+    }
+    // console.log('File has been created')
+  })
+
+  console.log(avgScoreEachSentence)
+
 
 })
 
@@ -1821,3 +1848,15 @@ for (const propt in score) {
   // console.log(arrObj)
 
 }
+
+const scoreMinMax = arrObj
+
+fs.writeFile('./score.json', JSON.stringify(scoreMinMax, null, 4), (err) => {
+  if (err) {
+    console.error(err)
+    return
+  }
+  // console.log('File has been created')
+})
+
+// console.log(scoreMinMax)

@@ -1,0 +1,872 @@
+[
+    {
+        "Sentence": "BG_SE_1",
+        "MinScore": 44,
+        "MaxScore": 52
+    },
+    {
+        "Sentence": "BG_SE_2",
+        "MinScore": 9,
+        "MaxScore": 17
+    },
+    {
+        "Sentence": "BG_SE_4",
+        "MinScore": 90,
+        "MaxScore": 96
+    },
+    {
+        "Sentence": "BG_SE_5",
+        "MinScore": 11,
+        "MaxScore": 17
+    },
+    {
+        "Sentence": "BG_SE_6",
+        "MinScore": 63,
+        "MaxScore": 69
+    },
+    {
+        "Sentence": "BG_SE_7",
+        "MinScore": 79,
+        "MaxScore": 85
+    },
+    {
+        "Sentence": "BG_SE_8",
+        "MinScore": 91,
+        "MaxScore": 98
+    },
+    {
+        "Sentence": "BG_SE_9",
+        "MinScore": 16,
+        "MaxScore": 23
+    },
+    {
+        "Sentence": "BG_SE_10",
+        "MinScore": 51,
+        "MaxScore": 61
+    },
+    {
+        "Sentence": "BG_SE_11",
+        "MinScore": 20,
+        "MaxScore": 30
+    },
+    {
+        "Sentence": "BG_SE_12",
+        "MinScore": 90,
+        "MaxScore": 96
+    },
+    {
+        "Sentence": "BG_SE_13",
+        "MinScore": 38,
+        "MaxScore": 46
+    },
+    {
+        "Sentence": "BG_SE_14",
+        "MinScore": 87,
+        "MaxScore": 90
+    },
+    {
+        "Sentence": "BG_SE_15",
+        "MinScore": 37,
+        "MaxScore": 40
+    },
+    {
+        "Sentence": "BG_SE_16",
+        "MinScore": 73,
+        "MaxScore": 81
+    },
+    {
+        "Sentence": "BG_SE_18",
+        "MinScore": 48,
+        "MaxScore": 54
+    },
+    {
+        "Sentence": "BG_SE_20",
+        "MinScore": 33,
+        "MaxScore": 39
+    },
+    {
+        "Sentence": "BG_SE_22",
+        "MinScore": 33,
+        "MaxScore": 42
+    },
+    {
+        "Sentence": "BG_SE_24",
+        "MinScore": 63,
+        "MaxScore": 71
+    },
+    {
+        "Sentence": "BG_SE_25",
+        "MinScore": 90,
+        "MaxScore": 93
+    },
+    {
+        "Sentence": "BG_SE_26",
+        "MinScore": 88,
+        "MaxScore": 94
+    },
+    {
+        "Sentence": "BG_SE_27",
+        "MinScore": 32,
+        "MaxScore": 41
+    },
+    {
+        "Sentence": "BG_SE_28",
+        "MinScore": 14,
+        "MaxScore": 18
+    },
+    {
+        "Sentence": "BG_SE_29",
+        "MinScore": 43,
+        "MaxScore": 49
+    },
+    {
+        "Sentence": "BG_SE_30",
+        "MinScore": 39,
+        "MaxScore": 45
+    },
+    {
+        "Sentence": "BG_SE_31",
+        "MinScore": 77,
+        "MaxScore": 83
+    },
+    {
+        "Sentence": "BG_SE_34",
+        "MinScore": 16,
+        "MaxScore": 22
+    },
+    {
+        "Sentence": "BG_SE_35",
+        "MinScore": 31,
+        "MaxScore": 40
+    },
+    {
+        "Sentence": "BG_SE_36",
+        "MinScore": 47,
+        "MaxScore": 53
+    },
+    {
+        "Sentence": "BG_SE_37",
+        "MinScore": 81,
+        "MaxScore": 89
+    },
+    {
+        "Sentence": "BG_SE_38",
+        "MinScore": 91,
+        "MaxScore": 99
+    },
+    {
+        "Sentence": "BG_SE_40",
+        "MinScore": 38,
+        "MaxScore": 43
+    },
+    {
+        "Sentence": "BG_SE_41",
+        "MinScore": 72,
+        "MaxScore": 80
+    },
+    {
+        "Sentence": "BG_SE_42",
+        "MinScore": 11,
+        "MaxScore": 21
+    },
+    {
+        "Sentence": "BG_SE_43",
+        "MinScore": 14,
+        "MaxScore": 17
+    },
+    {
+        "Sentence": "BG_SE_44",
+        "MinScore": 40,
+        "MaxScore": 49
+    },
+    {
+        "Sentence": "BG_SE_45",
+        "MinScore": 42,
+        "MaxScore": 46
+    },
+    {
+        "Sentence": "BG_SE_46",
+        "MinScore": 24,
+        "MaxScore": 31
+    },
+    {
+        "Sentence": "BG_SE_47",
+        "MinScore": 9,
+        "MaxScore": 13
+    },
+    {
+        "Sentence": "BG_SE_48",
+        "MinScore": 63,
+        "MaxScore": 69
+    },
+    {
+        "Sentence": "BG_SE_49",
+        "MinScore": 59,
+        "MaxScore": 67
+    },
+    {
+        "Sentence": "BG_SE_50",
+        "MinScore": 14,
+        "MaxScore": 19
+    },
+    {
+        "Sentence": "BG_SE_51",
+        "MinScore": 61,
+        "MaxScore": 67
+    },
+    {
+        "Sentence": "BG_SE_52",
+        "MinScore": 20,
+        "MaxScore": 29
+    },
+    {
+        "Sentence": "BG_SE_53",
+        "MinScore": 4,
+        "MaxScore": 13
+    },
+    {
+        "Sentence": "BG_SE_54",
+        "MinScore": 85,
+        "MaxScore": 94
+    },
+    {
+        "Sentence": "BG_SE_55",
+        "MinScore": 90,
+        "MaxScore": 97
+    },
+    {
+        "Sentence": "BG_SE_56",
+        "MinScore": 18,
+        "MaxScore": 26
+    },
+    {
+        "Sentence": "BG_SE_57",
+        "MinScore": 86,
+        "MaxScore": 91
+    },
+    {
+        "Sentence": "BG_SE_58",
+        "MinScore": 90,
+        "MaxScore": 95
+    },
+    {
+        "Sentence": "BG_SE_59",
+        "MinScore": 48,
+        "MaxScore": 57
+    },
+    {
+        "Sentence": "BG_SE_60",
+        "MinScore": 83,
+        "MaxScore": 93
+    },
+    {
+        "Sentence": "BG_SE_61",
+        "MinScore": 26,
+        "MaxScore": 36
+    },
+    {
+        "Sentence": "BG_SE_63",
+        "MinScore": 38,
+        "MaxScore": 45
+    },
+    {
+        "Sentence": "BG_SE_64",
+        "MinScore": 55,
+        "MaxScore": 62
+    },
+    {
+        "Sentence": "BG_SE_65",
+        "MinScore": 54,
+        "MaxScore": 58
+    },
+    {
+        "Sentence": "BG_SE_66",
+        "MinScore": 47,
+        "MaxScore": 56
+    },
+    {
+        "Sentence": "BG_SE_67",
+        "MinScore": 66,
+        "MaxScore": 74
+    },
+    {
+        "Sentence": "BG_SE_68",
+        "MinScore": 89,
+        "MaxScore": 97
+    },
+    {
+        "Sentence": "BG_SE_69",
+        "MinScore": 87,
+        "MaxScore": 94
+    },
+    {
+        "Sentence": "BG_SE_71",
+        "MinScore": 28,
+        "MaxScore": 34
+    },
+    {
+        "Sentence": "BG_SE_72",
+        "MinScore": 35,
+        "MaxScore": 40
+    },
+    {
+        "Sentence": "BG_SE_73",
+        "MinScore": 16,
+        "MaxScore": 26
+    },
+    {
+        "Sentence": "BG_SE_75",
+        "MinScore": 57,
+        "MaxScore": 64
+    },
+    {
+        "Sentence": "BG_SE_76",
+        "MinScore": 66,
+        "MaxScore": 71
+    },
+    {
+        "Sentence": "BG_SE_78",
+        "MinScore": 47,
+        "MaxScore": 50
+    },
+    {
+        "Sentence": "BG_SE_79",
+        "MinScore": 90,
+        "MaxScore": 98
+    },
+    {
+        "Sentence": "BG_SE_81",
+        "MinScore": 60,
+        "MaxScore": 66
+    },
+    {
+        "Sentence": "BG_SE_82",
+        "MinScore": 53,
+        "MaxScore": 62
+    },
+    {
+        "Sentence": "BG_SE_83",
+        "MinScore": 83,
+        "MaxScore": 89
+    },
+    {
+        "Sentence": "BG_SE_84",
+        "MinScore": 23,
+        "MaxScore": 32
+    },
+    {
+        "Sentence": "BG_SE_85",
+        "MinScore": 27,
+        "MaxScore": 32
+    },
+    {
+        "Sentence": "BG_SE_86",
+        "MinScore": 8,
+        "MaxScore": 15
+    },
+    {
+        "Sentence": "BG_SE_87",
+        "MinScore": 64,
+        "MaxScore": 73
+    },
+    {
+        "Sentence": "BG_SE_88",
+        "MinScore": 14,
+        "MaxScore": 21
+    },
+    {
+        "Sentence": "BG_SE_89",
+        "MinScore": 27,
+        "MaxScore": 36
+    },
+    {
+        "Sentence": "BG_SE_90",
+        "MinScore": 83,
+        "MaxScore": 90
+    },
+    {
+        "Sentence": "BG_SE_91",
+        "MinScore": 90,
+        "MaxScore": 100
+    },
+    {
+        "Sentence": "BG_SE_92",
+        "MinScore": 39,
+        "MaxScore": 45
+    },
+    {
+        "Sentence": "BG_SE_93",
+        "MinScore": 14,
+        "MaxScore": 21
+    },
+    {
+        "Sentence": "BG_SE_94",
+        "MinScore": 72,
+        "MaxScore": 81
+    },
+    {
+        "Sentence": "BG_SE_95",
+        "MinScore": 45,
+        "MaxScore": 55
+    },
+    {
+        "Sentence": "BG_SE_96",
+        "MinScore": 69,
+        "MaxScore": 78
+    },
+    {
+        "Sentence": "BG_SE_97",
+        "MinScore": 39,
+        "MaxScore": 43
+    },
+    {
+        "Sentence": "BG_SE_98",
+        "MinScore": 80,
+        "MaxScore": 84
+    },
+    {
+        "Sentence": "BG_SE_99",
+        "MinScore": 83,
+        "MaxScore": 90
+    },
+    {
+        "Sentence": "BG_SE_100",
+        "MinScore": 29,
+        "MaxScore": 37
+    },
+    {
+        "Sentence": "BG_SE_101",
+        "MinScore": 4,
+        "MaxScore": 9
+    },
+    {
+        "Sentence": "BG_SE_102",
+        "MinScore": 25,
+        "MaxScore": 33
+    },
+    {
+        "Sentence": "BG_SE_104",
+        "MinScore": 37,
+        "MaxScore": 43
+    },
+    {
+        "Sentence": "BG_SE_105",
+        "MinScore": 85,
+        "MaxScore": 94
+    },
+    {
+        "Sentence": "BG_SE_106",
+        "MinScore": 9,
+        "MaxScore": 18
+    },
+    {
+        "Sentence": "BG_SE_107",
+        "MinScore": 61,
+        "MaxScore": 67
+    },
+    {
+        "Sentence": "BG_SE_108",
+        "MinScore": 87,
+        "MaxScore": 96
+    },
+    {
+        "Sentence": "BG_SE_109",
+        "MinScore": 24,
+        "MaxScore": 31
+    },
+    {
+        "Sentence": "BG_SE_111",
+        "MinScore": 71,
+        "MaxScore": 78
+    },
+    {
+        "Sentence": "BG_SE_112",
+        "MinScore": 79,
+        "MaxScore": 86
+    },
+    {
+        "Sentence": "BG_SE_113",
+        "MinScore": 36,
+        "MaxScore": 43
+    },
+    {
+        "Sentence": "BG_SE_114",
+        "MinScore": 43,
+        "MaxScore": 53
+    },
+    {
+        "Sentence": "BG_SE_115",
+        "MinScore": 34,
+        "MaxScore": 43
+    },
+    {
+        "Sentence": "BG_SE_117",
+        "MinScore": 41,
+        "MaxScore": 51
+    },
+    {
+        "Sentence": "BG_SE_118",
+        "MinScore": 28,
+        "MaxScore": 35
+    },
+    {
+        "Sentence": "BG_SE_119",
+        "MinScore": 83,
+        "MaxScore": 90
+    },
+    {
+        "Sentence": "BG_SE_120",
+        "MinScore": 41,
+        "MaxScore": 46
+    },
+    {
+        "Sentence": "BG_SE_121",
+        "MinScore": 20,
+        "MaxScore": 29
+    },
+    {
+        "Sentence": "BG_SE_122",
+        "MinScore": 40,
+        "MaxScore": 42
+    },
+    {
+        "Sentence": "BG_SE_123",
+        "MinScore": 28,
+        "MaxScore": 35
+    },
+    {
+        "Sentence": "BG_SE_125",
+        "MinScore": 57,
+        "MaxScore": 63
+    },
+    {
+        "Sentence": "BG_SE_126",
+        "MinScore": 70,
+        "MaxScore": 77
+    },
+    {
+        "Sentence": "BG_SE_127",
+        "MinScore": 73,
+        "MaxScore": 79
+    },
+    {
+        "Sentence": "BG_SE_128",
+        "MinScore": 17,
+        "MaxScore": 24
+    },
+    {
+        "Sentence": "BG_SE_129",
+        "MinScore": 32,
+        "MaxScore": 38
+    },
+    {
+        "Sentence": "BG_SE_130",
+        "MinScore": 51,
+        "MaxScore": 60
+    },
+    {
+        "Sentence": "BG_SE_131",
+        "MinScore": 24,
+        "MaxScore": 33
+    },
+    {
+        "Sentence": "BG_SE_132",
+        "MinScore": 90,
+        "MaxScore": 95
+    },
+    {
+        "Sentence": "BG_SE_133",
+        "MinScore": 73,
+        "MaxScore": 79
+    },
+    {
+        "Sentence": "BG_SE_134",
+        "MinScore": 16,
+        "MaxScore": 25
+    },
+    {
+        "Sentence": "BG_SE_136",
+        "MinScore": 41,
+        "MaxScore": 45
+    },
+    {
+        "Sentence": "BG_SE_137",
+        "MinScore": 4,
+        "MaxScore": 12
+    },
+    {
+        "Sentence": "BG_SE_138",
+        "MinScore": 8,
+        "MaxScore": 11
+    },
+    {
+        "Sentence": "BG_SE_139",
+        "MinScore": 65,
+        "MaxScore": 73
+    },
+    {
+        "Sentence": "BG_SE_140",
+        "MinScore": 10,
+        "MaxScore": 16
+    },
+    {
+        "Sentence": "BG_SE_141",
+        "MinScore": 10,
+        "MaxScore": 13
+    },
+    {
+        "Sentence": "BG_SE_142",
+        "MinScore": 44,
+        "MaxScore": 53
+    },
+    {
+        "Sentence": "BG_SE_143",
+        "MinScore": 88,
+        "MaxScore": 95
+    },
+    {
+        "Sentence": "BG_SE_144",
+        "MinScore": 6,
+        "MaxScore": 12
+    },
+    {
+        "Sentence": "BG_SE_145",
+        "MinScore": 17,
+        "MaxScore": 26
+    },
+    {
+        "Sentence": "BG_SE_146",
+        "MinScore": 20,
+        "MaxScore": 25
+    },
+    {
+        "Sentence": "BG_SE_147",
+        "MinScore": 57,
+        "MaxScore": 66
+    },
+    {
+        "Sentence": "BG_SE_148",
+        "MinScore": 22,
+        "MaxScore": 29
+    },
+    {
+        "Sentence": "BG_SE_150",
+        "MinScore": 6,
+        "MaxScore": 15
+    },
+    {
+        "Sentence": "BG_SE_151",
+        "MinScore": 72,
+        "MaxScore": 79
+    },
+    {
+        "Sentence": "BG_SE_152",
+        "MinScore": 16,
+        "MaxScore": 25
+    },
+    {
+        "Sentence": "BG_SE_153",
+        "MinScore": 85,
+        "MaxScore": 95
+    },
+    {
+        "Sentence": "BG_SE_154",
+        "MinScore": 36,
+        "MaxScore": 43
+    },
+    {
+        "Sentence": "BG_SE_155",
+        "MinScore": 80,
+        "MaxScore": 90
+    },
+    {
+        "Sentence": "BG_SE_156",
+        "MinScore": 14,
+        "MaxScore": 24
+    },
+    {
+        "Sentence": "BG_SE_157",
+        "MinScore": 9,
+        "MaxScore": 17
+    },
+    {
+        "Sentence": "BG_SE_158",
+        "MinScore": 64,
+        "MaxScore": 69
+    },
+    {
+        "Sentence": "BG_SE_159",
+        "MinScore": 88,
+        "MaxScore": 93
+    },
+    {
+        "Sentence": "BG_SE_160",
+        "MinScore": 11,
+        "MaxScore": 20
+    },
+    {
+        "Sentence": "BG_SE_161",
+        "MinScore": 87,
+        "MaxScore": 91
+    },
+    {
+        "Sentence": "BG_SE_163",
+        "MinScore": 12,
+        "MaxScore": 19
+    },
+    {
+        "Sentence": "BG_SE_164",
+        "MinScore": 89,
+        "MaxScore": 99
+    },
+    {
+        "Sentence": "BG_SE_165",
+        "MinScore": 57,
+        "MaxScore": 64
+    },
+    {
+        "Sentence": "BG_SE_166",
+        "MinScore": 43,
+        "MaxScore": 51
+    },
+    {
+        "Sentence": "BG_SE_167",
+        "MinScore": 88,
+        "MaxScore": 91
+    },
+    {
+        "Sentence": "BG_SE_168",
+        "MinScore": 63,
+        "MaxScore": 67
+    },
+    {
+        "Sentence": "BG_SE_169",
+        "MinScore": 11,
+        "MaxScore": 21
+    },
+    {
+        "Sentence": "BG_SE_170",
+        "MinScore": 90,
+        "MaxScore": 99
+    },
+    {
+        "Sentence": "BG_SE_171",
+        "MinScore": 26,
+        "MaxScore": 33
+    },
+    {
+        "Sentence": "BG_SE_172",
+        "MinScore": 80,
+        "MaxScore": 85
+    },
+    {
+        "Sentence": "BG_SE_174",
+        "MinScore": 1,
+        "MaxScore": 8
+    },
+    {
+        "Sentence": "BG_SE_175",
+        "MinScore": 2,
+        "MaxScore": 10
+    },
+    {
+        "Sentence": "BG_SE_176",
+        "MinScore": 77,
+        "MaxScore": 86
+    },
+    {
+        "Sentence": "BG_SE_177",
+        "MinScore": 45,
+        "MaxScore": 53
+    },
+    {
+        "Sentence": "BG_SE_178",
+        "MinScore": 6,
+        "MaxScore": 15
+    },
+    {
+        "Sentence": "BG_SE_179",
+        "MinScore": 77,
+        "MaxScore": 83
+    },
+    {
+        "Sentence": "BG_SE_180",
+        "MinScore": 22,
+        "MaxScore": 26
+    },
+    {
+        "Sentence": "BG_SE_181",
+        "MinScore": 26,
+        "MaxScore": 33
+    },
+    {
+        "Sentence": "BG_SE_182",
+        "MinScore": 64,
+        "MaxScore": 72
+    },
+    {
+        "Sentence": "BG_SE_183",
+        "MinScore": 21,
+        "MaxScore": 29
+    },
+    {
+        "Sentence": "BG_SE_185",
+        "MinScore": 38,
+        "MaxScore": 40
+    },
+    {
+        "Sentence": "BG_SE_186",
+        "MinScore": 89,
+        "MaxScore": 93
+    },
+    {
+        "Sentence": "BG_SE_188",
+        "MinScore": 78,
+        "MaxScore": 86
+    },
+    {
+        "Sentence": "BG_SE_189",
+        "MinScore": 9,
+        "MaxScore": 17
+    },
+    {
+        "Sentence": "BG_SE_190",
+        "MinScore": 74,
+        "MaxScore": 84
+    },
+    {
+        "Sentence": "BG_SE_191",
+        "MinScore": 77,
+        "MaxScore": 84
+    },
+    {
+        "Sentence": "BG_SE_192",
+        "MinScore": 34,
+        "MaxScore": 40
+    },
+    {
+        "Sentence": "BG_SE_193",
+        "MinScore": 53,
+        "MaxScore": 63
+    },
+    {
+        "Sentence": "BG_SE_194",
+        "MinScore": 6,
+        "MaxScore": 13
+    },
+    {
+        "Sentence": "BG_SE_197",
+        "MinScore": 60,
+        "MaxScore": 66
+    },
+    {
+        "Sentence": "BG_SE_198",
+        "MinScore": 51,
+        "MaxScore": 58
+    },
+    {
+        "Sentence": "BG_SE_199",
+        "MinScore": 4,
+        "MaxScore": 12
+    }
+]
