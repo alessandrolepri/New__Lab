@@ -35,7 +35,8 @@ For each exercise, starting with the original CSV file:
 
 * From the zip file I have exported the csv file and integrated to the repo as 'bulgarian-direct-assesment.csv'
 
-* From the Terminal I have ran ```csvtojson bulgarian-direct-assessment.csv > index.js``` to create an array of object, then I have modified then syntax to the csv file to concatenate all the word such as 'sentence_id', 'evaluator_id', 'human_translation' and 'machine_translation' in order to not get any undefined return
+* From the Terminal I have ran ```csvtojson bulgarian-direct-assessment.csv > index.js```
+to create an array of object, then I have modified then syntax to the csv file to concatenate all the word such as 'sentence_id', 'evaluator_id', 'human_translation' and 'machine_translation' in order to not get any undefined return
 
 * I have decided to use 'reduce()' function based on the task of the exercise as I have to return all the score up as single number.
 It will help me to cycle through each number in the array and return only the accumulator needed to calculate the average by dividing by the length of each Object
@@ -46,5 +47,7 @@ fs.writeFile('./<create your folder name>', JSON.stringify(<new name>, null, 4),
   if (err) {
     return
   }
-})``` to created a new folder containing only the data requested.
+})```
+to created a new folder containing only the data requested.
 The new JSONs file will now contain the result of the exercise by running from the Terminal ```node index.js```
+and moved to 'resultExercise' folder.
